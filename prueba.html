@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parcial 2 michael garzon</title>
+    <link rel="stylesheet" href="prueba.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <style>
+    </style>
+</head>
+<body>
+
+
+    <input type="checkbox" id="btn-modal">
+    <div class="container-modal">
+        <div class="content-modal">
+            <h2>¡Bienvenido!</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, nostrum!</p>
+            <div class="btn-cerrar">
+                <label for="btn-modal">Cerrar</label>
+            </div>
+        </div>
+        <label for="btn-modal" class="cerrar-modal"></label>
+    </div>
+    <!-- MOBILE SCREEN -->
+    <input type="checkbox" id="menu">
+    <!-- END MOBILE SCREEN -->
+    <header>
+        <div class="logo">
+            <svg id="logo-35" width="50" height="39" viewBox="0 0 50 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.4992 2H37.5808L22.0816 24.9729H1L16.4992 2Z" class="ccompli1" fill="#007AFF"></path> <path d="M17.4224 27.102L11.4192 36H33.5008L49 13.0271H32.7024L23.2064 27.102H17.4224Z" class="ccompli1" fill="#312ECB"></path>
+            </svg>
+            <h1>SparkRide<span>Rentals</span></h1>
+        </div>
+        <!-- MOBILE SCREEN -->
+        <label for="menu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>   
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">Acerca</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+        </nav> 
+    </header>
+
+    <!-- Imagen debajo del header -->
+    <img id="home" class="logo2" src="logo2.png" alt="Logo 2">
+
+    <!-- Espacio rectangular azul -->
+    <div id="about" class="acerca">
+        <!-- Primera columna -->
+        <div class="columna">
+            <h2>alquila ya!</h2>
+            <p>Nos enorgullece ofrecer una amplia gama de vehículos de calidad, desde compactos hasta SUVs, para que puedas explorar el mundo con total libertad. Con ubicaciones convenientes y un servicio al cliente excepcional, estamos aquí para hacer que tu experiencia de alquiler sea fácil y sin complicaciones.</p>
+           
+        </div>
+        <!-- Segunda columna -->
+        <div class="columna">
+            <p>No te pierdas nuestras promociones</p>
+            
+        </div>
+    </div>
+    
+    <div id="servicios"  class="servicios">
+        <h3>Conoce nuestros servicios</h3>
+        <br>
+        <p>alquilamos todo tipo de vehiculos y scooters electricos en diversas partes del mundo</p>
+        <h3>selecciona tu destino</h3>
+        <select id="country-select">
+            <option value="pais">Pais</option>
+            <option value="usa">Estados Unidos</option>
+            <option value="uk">Reino Unido</option>
+            <option value="france">Francia</option>
+            <option value="Japon">Japon</option>
+            <!-- Agrega más opciones según sea necesario -->
+        </select>
+    </div>
+    
+        <section class="testimonials">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="customers-testimonials" class="owl-carousel">
+                            <!--TESTIMONIAL 1 -->
+                            <div class="item">
+                                <div class="shadow-effect">
+                                    <img class="img-responsive" src="carro1.jpg" alt="">
+                                    <div class="item-details">
+                                        <h5>DFSK Seres 3 <span>$21</span></h5>
+                                        <p>Entre sus elementos disponibles están el techo corredizo, tablero digital, centro multimedia de 10,25 pulgadas y cámara 360°.</p>
+                                        <div class="boton-modal">
+                                            <label for="btn-modal">
+                                                Reservar
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--END OF TESTIMONIAL 1 -->
+                            <!--TESTIMONIAL 2 -->
+                            <div class="item">
+                                <div class="shadow-effect">
+                                    <img class="img-responsive" src="carro2.jpg" alt="">
+                                    <div class="item-details">
+                                        <h5>BYD T3 GL Van<span>$21</span></h5>
+                                        <p>Ofrece un bajo costo operativo para el transporte urbano de mercancías, con 3,3 metros cúbicos en bodega y capacidad para cargar hasta 720 kg.</p>
+                                        <div class="boton-modal">
+                                            <label for="btn-modal">
+                                                Reservar
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--END OF TESTIMONIAL 2 -->
+                            <!--TESTIMONIAL 3 -->
+                            <div class="item">
+                                <div class="shadow-effect">
+                                    <img class="img-responsive" src="carro3.jpg" alt="">
+                                    <div class="item-details">
+                                        <h5>BYD Yuan Pro<span>$21</span></h5>
+                                        <p>Actualizó su diseño, acabados y tecnología hace un año, incluyendo además la batería Blade LFP de última generación.</p>
+                                        <div class="boton-modal">
+                                            <label for="btn-modal">
+                                                Reservar
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--END OF TESTIMONIAL 3 -->
+                            <!--TESTIMONIAL 4 -->
+                            <div class="item">
+                                <div class="shadow-effect">
+                                    <img class="img-responsive" src="carro4.jpg" alt="">
+                                    <div class="item-details">
+                                        <h5>Renault Kwid E-Tech <span>$21</span></h5>
+                                        <p>incorpora un equipo de seguridad más robusto y mejor desempeño gracias a su mecánica eléctrica, disfruta de su nuevo modelo ahora</p>
+                                        <div class="boton-modal">
+                                            <label for="btn-modal">
+                                                Reservar
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--END OF TESTIMONIAL 4 -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <footer>
+            <div id="contacto" class="container2">
+                <p><b>© 2024 Mi Sitio Web. Todos los derechos reservados.</b></p>
+                <ul>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Términos de uso</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+                <img src="logo.jpeg" alt="Logo de Mi Sitio Web" style="width: 100px;">
+            </div>
+        </footer>
+<!--Boton-->
+
+<!--Fin de Boton-->
+<!--Ventana Modal-->
+<input type="checkbox" id="btn-modal">
+<div class="container-modal">
+    <div class="content-modal">
+        <h2>¡Felicitaciones!</h2>
+        <p>su servicio a sido reservado con exito!</p>
+        <div class="btn-cerrar">
+            <label for="btn-modal">Cerrar</label>
+        </div>
+    </div>
+    <label for="btn-modal" class="cerrar-modal"></label>
+</div>
+<!--Fin de Ventana Modal-->
+        
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('#customers-testimonials').owlCarousel( {
+                loop: true,
+                center: true,
+                items: 3,
+                margin: 30,
+                autoplay: true,
+                dots: true,
+                nav: true,
+                autoplayTimeout: 8500,
+                smartSpeed: 450,
+                navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    768: {
+                        items: 2
+                    },
+                    1170: {
+                        items: 3
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
